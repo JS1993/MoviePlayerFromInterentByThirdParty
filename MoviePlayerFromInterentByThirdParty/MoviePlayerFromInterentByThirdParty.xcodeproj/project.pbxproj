@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFAEEDFB1CAFE9A300CE722C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAEEDFA1CAFE9A300CE722C /* main.m */; };
+		CFAEEDFE1CAFE9A300CE722C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAEEDFD1CAFE9A300CE722C /* AppDelegate.m */; };
+		CFAEEE011CAFE9A300CE722C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAEEE001CAFE9A300CE722C /* ViewController.m */; };
+		CFAEEE041CAFE9A300CE722C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE021CAFE9A300CE722C /* Main.storyboard */; };
+		CFAEEE071CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFAEEE051CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty.xcdatamodeld */; };
+		CFAEEE091CAFE9A300CE722C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE081CAFE9A300CE722C /* Assets.xcassets */; };
+		CFAEEE0C1CAFE9A300CE722C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE0A1CAFE9A300CE722C /* LaunchScreen.storyboard */; };
+		CFAEEE171CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAEEE161CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests.m */; };
+		CFAEEE221CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAEEE211CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests.m */; };
+		CFAEEE4D1CAFEA2600CE722C /* CDPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAEEE3D1CAFEA2600CE722C /* CDPButton.m */; };
+		CFAEEE4E1CAFEA2600CE722C /* CDPBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE3F1CAFEA2600CE722C /* CDPBack@2x.png */; };
+		CFAEEE4F1CAFEA2600CE722C /* CDPBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE401CAFEA2600CE722C /* CDPBack@3x.png */; };
+		CFAEEE501CAFEA2600CE722C /* CDPPause.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE411CAFEA2600CE722C /* CDPPause.png */; };
+		CFAEEE511CAFEA2600CE722C /* CDPPause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE421CAFEA2600CE722C /* CDPPause@2x.png */; };
+		CFAEEE521CAFEA2600CE722C /* CDPPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE431CAFEA2600CE722C /* CDPPlay.png */; };
+		CFAEEE531CAFEA2600CE722C /* CDPPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE441CAFEA2600CE722C /* CDPPlay@2x.png */; };
+		CFAEEE541CAFEA2600CE722C /* CDPSlider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE451CAFEA2600CE722C /* CDPSlider@2x.png */; };
+		CFAEEE551CAFEA2600CE722C /* CDPSlider@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE461CAFEA2600CE722C /* CDPSlider@3x.png */; };
+		CFAEEE561CAFEA2600CE722C /* CDPZoomIn.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE471CAFEA2600CE722C /* CDPZoomIn.png */; };
+		CFAEEE571CAFEA2600CE722C /* CDPZoomIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE481CAFEA2600CE722C /* CDPZoomIn@2x.png */; };
+		CFAEEE581CAFEA2600CE722C /* CDPZoomOut.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE491CAFEA2600CE722C /* CDPZoomOut.png */; };
+		CFAEEE591CAFEA2600CE722C /* CDPZoomOut@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAEEE4A1CAFEA2600CE722C /* CDPZoomOut@2x.png */; };
+		CFAEEE5A1CAFEA2600CE722C /* CDPVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAEEE4C1CAFEA2600CE722C /* CDPVideoPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFAEEE131CAFE9A300CE722C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFAEEDEE1CAFE9A300CE722C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAEEDF51CAFE9A300CE722C;
+			remoteInfo = MoviePlayerFromInterentByThirdParty;
+		};
+		CFAEEE1E1CAFE9A300CE722C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFAEEDEE1CAFE9A300CE722C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAEEDF51CAFE9A300CE722C;
+			remoteInfo = MoviePlayerFromInterentByThirdParty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFAEEDF61CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviePlayerFromInterentByThirdParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAEEDFA1CAFE9A300CE722C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFAEEDFC1CAFE9A300CE722C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFAEEDFD1CAFE9A300CE722C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFAEEDFF1CAFE9A300CE722C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFAEEE001CAFE9A300CE722C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFAEEE031CAFE9A300CE722C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFAEEE061CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoviePlayerFromInterentByThirdParty.xcdatamodel; sourceTree = "<group>"; };
+		CFAEEE081CAFE9A300CE722C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFAEEE0B1CAFE9A300CE722C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFAEEE0D1CAFE9A300CE722C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAEEE121CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviePlayerFromInterentByThirdPartyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAEEE161CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerFromInterentByThirdPartyTests.m; sourceTree = "<group>"; };
+		CFAEEE181CAFE9A300CE722C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAEEE1D1CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviePlayerFromInterentByThirdPartyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAEEE211CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerFromInterentByThirdPartyUITests.m; sourceTree = "<group>"; };
+		CFAEEE231CAFE9A300CE722C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAEEE3C1CAFEA2600CE722C /* CDPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPButton.h; sourceTree = "<group>"; };
+		CFAEEE3D1CAFEA2600CE722C /* CDPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPButton.m; sourceTree = "<group>"; };
+		CFAEEE3F1CAFEA2600CE722C /* CDPBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPBack@2x.png"; sourceTree = "<group>"; };
+		CFAEEE401CAFEA2600CE722C /* CDPBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPBack@3x.png"; sourceTree = "<group>"; };
+		CFAEEE411CAFEA2600CE722C /* CDPPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CDPPause.png; sourceTree = "<group>"; };
+		CFAEEE421CAFEA2600CE722C /* CDPPause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPPause@2x.png"; sourceTree = "<group>"; };
+		CFAEEE431CAFEA2600CE722C /* CDPPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CDPPlay.png; sourceTree = "<group>"; };
+		CFAEEE441CAFEA2600CE722C /* CDPPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPPlay@2x.png"; sourceTree = "<group>"; };
+		CFAEEE451CAFEA2600CE722C /* CDPSlider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPSlider@2x.png"; sourceTree = "<group>"; };
+		CFAEEE461CAFEA2600CE722C /* CDPSlider@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPSlider@3x.png"; sourceTree = "<group>"; };
+		CFAEEE471CAFEA2600CE722C /* CDPZoomIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CDPZoomIn.png; sourceTree = "<group>"; };
+		CFAEEE481CAFEA2600CE722C /* CDPZoomIn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPZoomIn@2x.png"; sourceTree = "<group>"; };
+		CFAEEE491CAFEA2600CE722C /* CDPZoomOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CDPZoomOut.png; sourceTree = "<group>"; };
+		CFAEEE4A1CAFEA2600CE722C /* CDPZoomOut@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPZoomOut@2x.png"; sourceTree = "<group>"; };
+		CFAEEE4B1CAFEA2600CE722C /* CDPVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPVideoPlayer.h; sourceTree = "<group>"; };
+		CFAEEE4C1CAFEA2600CE722C /* CDPVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPVideoPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFAEEDF31CAFE9A300CE722C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAEEE0F1CAFE9A300CE722C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAEEE1A1CAFE9A300CE722C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFAEEDED1CAFE9A300CE722C = {
+			isa = PBXGroup;
+			children = (
+				CFAEEDF81CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty */,
+				CFAEEE151CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests */,
+				CFAEEE201CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests */,
+				CFAEEDF71CAFE9A300CE722C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFAEEDF71CAFE9A300CE722C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEEDF61CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty.app */,
+				CFAEEE121CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests.xctest */,
+				CFAEEE1D1CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFAEEDF81CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEEDFC1CAFE9A300CE722C /* AppDelegate.h */,
+				CFAEEDFD1CAFE9A300CE722C /* AppDelegate.m */,
+				CFAEEDFF1CAFE9A300CE722C /* ViewController.h */,
+				CFAEEE001CAFE9A300CE722C /* ViewController.m */,
+				CFAEEE021CAFE9A300CE722C /* Main.storyboard */,
+				CFAEEE081CAFE9A300CE722C /* Assets.xcassets */,
+				CFAEEE0A1CAFE9A300CE722C /* LaunchScreen.storyboard */,
+				CFAEEE0D1CAFE9A300CE722C /* Info.plist */,
+				CFAEEE051CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty.xcdatamodeld */,
+				CFAEEDF91CAFE9A300CE722C /* Supporting Files */,
+			);
+			path = MoviePlayerFromInterentByThirdParty;
+			sourceTree = "<group>";
+		};
+		CFAEEDF91CAFE9A300CE722C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEEE3B1CAFEA2600CE722C /* CDPVideoPlayer */,
+				CFAEEDFA1CAFE9A300CE722C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFAEEE151CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEEE161CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests.m */,
+				CFAEEE181CAFE9A300CE722C /* Info.plist */,
+			);
+			path = MoviePlayerFromInterentByThirdPartyTests;
+			sourceTree = "<group>";
+		};
+		CFAEEE201CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEEE211CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests.m */,
+				CFAEEE231CAFE9A300CE722C /* Info.plist */,
+			);
+			path = MoviePlayerFromInterentByThirdPartyUITests;
+			sourceTree = "<group>";
+		};
+		CFAEEE3B1CAFEA2600CE722C /* CDPVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEEE3C1CAFEA2600CE722C /* CDPButton.h */,
+				CFAEEE3D1CAFEA2600CE722C /* CDPButton.m */,
+				CFAEEE3E1CAFEA2600CE722C /* CDPImages */,
+				CFAEEE4B1CAFEA2600CE722C /* CDPVideoPlayer.h */,
+				CFAEEE4C1CAFEA2600CE722C /* CDPVideoPlayer.m */,
+			);
+			name = CDPVideoPlayer;
+			path = ../../../../Downloads/player/CDPVideoPlayer;
+			sourceTree = "<group>";
+		};
+		CFAEEE3E1CAFEA2600CE722C /* CDPImages */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEEE3F1CAFEA2600CE722C /* CDPBack@2x.png */,
+				CFAEEE401CAFEA2600CE722C /* CDPBack@3x.png */,
+				CFAEEE411CAFEA2600CE722C /* CDPPause.png */,
+				CFAEEE421CAFEA2600CE722C /* CDPPause@2x.png */,
+				CFAEEE431CAFEA2600CE722C /* CDPPlay.png */,
+				CFAEEE441CAFEA2600CE722C /* CDPPlay@2x.png */,
+				CFAEEE451CAFEA2600CE722C /* CDPSlider@2x.png */,
+				CFAEEE461CAFEA2600CE722C /* CDPSlider@3x.png */,
+				CFAEEE471CAFEA2600CE722C /* CDPZoomIn.png */,
+				CFAEEE481CAFEA2600CE722C /* CDPZoomIn@2x.png */,
+				CFAEEE491CAFEA2600CE722C /* CDPZoomOut.png */,
+				CFAEEE4A1CAFEA2600CE722C /* CDPZoomOut@2x.png */,
+			);
+			path = CDPImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFAEEDF51CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAEEE261CAFE9A300CE722C /* Build configuration list for PBXNativeTarget "MoviePlayerFromInterentByThirdParty" */;
+			buildPhases = (
+				CFAEEDF21CAFE9A300CE722C /* Sources */,
+				CFAEEDF31CAFE9A300CE722C /* Frameworks */,
+				CFAEEDF41CAFE9A300CE722C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoviePlayerFromInterentByThirdParty;
+			productName = MoviePlayerFromInterentByThirdParty;
+			productReference = CFAEEDF61CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFAEEE111CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAEEE291CAFE9A300CE722C /* Build configuration list for PBXNativeTarget "MoviePlayerFromInterentByThirdPartyTests" */;
+			buildPhases = (
+				CFAEEE0E1CAFE9A300CE722C /* Sources */,
+				CFAEEE0F1CAFE9A300CE722C /* Frameworks */,
+				CFAEEE101CAFE9A300CE722C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFAEEE141CAFE9A300CE722C /* PBXTargetDependency */,
+			);
+			name = MoviePlayerFromInterentByThirdPartyTests;
+			productName = MoviePlayerFromInterentByThirdPartyTests;
+			productReference = CFAEEE121CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFAEEE1C1CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAEEE2C1CAFE9A300CE722C /* Build configuration list for PBXNativeTarget "MoviePlayerFromInterentByThirdPartyUITests" */;
+			buildPhases = (
+				CFAEEE191CAFE9A300CE722C /* Sources */,
+				CFAEEE1A1CAFE9A300CE722C /* Frameworks */,
+				CFAEEE1B1CAFE9A300CE722C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFAEEE1F1CAFE9A300CE722C /* PBXTargetDependency */,
+			);
+			name = MoviePlayerFromInterentByThirdPartyUITests;
+			productName = MoviePlayerFromInterentByThirdPartyUITests;
+			productReference = CFAEEE1D1CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFAEEDEE1CAFE9A300CE722C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CFAEEDF51CAFE9A300CE722C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CFAEEE111CAFE9A300CE722C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFAEEDF51CAFE9A300CE722C;
+					};
+					CFAEEE1C1CAFE9A300CE722C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFAEEDF51CAFE9A300CE722C;
+					};
+				};
+			};
+			buildConfigurationList = CFAEEDF11CAFE9A300CE722C /* Build configuration list for PBXProject "MoviePlayerFromInterentByThirdParty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFAEEDED1CAFE9A300CE722C;
+			productRefGroup = CFAEEDF71CAFE9A300CE722C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFAEEDF51CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty */,
+				CFAEEE111CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests */,
+				CFAEEE1C1CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFAEEDF41CAFE9A300CE722C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAEEE551CAFEA2600CE722C /* CDPSlider@3x.png in Resources */,
+				CFAEEE571CAFEA2600CE722C /* CDPZoomIn@2x.png in Resources */,
+				CFAEEE511CAFEA2600CE722C /* CDPPause@2x.png in Resources */,
+				CFAEEE581CAFEA2600CE722C /* CDPZoomOut.png in Resources */,
+				CFAEEE591CAFEA2600CE722C /* CDPZoomOut@2x.png in Resources */,
+				CFAEEE501CAFEA2600CE722C /* CDPPause.png in Resources */,
+				CFAEEE0C1CAFE9A300CE722C /* LaunchScreen.storyboard in Resources */,
+				CFAEEE531CAFEA2600CE722C /* CDPPlay@2x.png in Resources */,
+				CFAEEE521CAFEA2600CE722C /* CDPPlay.png in Resources */,
+				CFAEEE091CAFE9A300CE722C /* Assets.xcassets in Resources */,
+				CFAEEE561CAFEA2600CE722C /* CDPZoomIn.png in Resources */,
+				CFAEEE041CAFE9A300CE722C /* Main.storyboard in Resources */,
+				CFAEEE4F1CAFEA2600CE722C /* CDPBack@3x.png in Resources */,
+				CFAEEE4E1CAFEA2600CE722C /* CDPBack@2x.png in Resources */,
+				CFAEEE541CAFEA2600CE722C /* CDPSlider@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAEEE101CAFE9A300CE722C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAEEE1B1CAFE9A300CE722C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFAEEDF21CAFE9A300CE722C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAEEE5A1CAFEA2600CE722C /* CDPVideoPlayer.m in Sources */,
+				CFAEEE071CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty.xcdatamodeld in Sources */,
+				CFAEEE4D1CAFEA2600CE722C /* CDPButton.m in Sources */,
+				CFAEEE011CAFE9A300CE722C /* ViewController.m in Sources */,
+				CFAEEDFE1CAFE9A300CE722C /* AppDelegate.m in Sources */,
+				CFAEEDFB1CAFE9A300CE722C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAEEE0E1CAFE9A300CE722C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAEEE171CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAEEE191CAFE9A300CE722C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAEEE221CAFE9A300CE722C /* MoviePlayerFromInterentByThirdPartyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFAEEE141CAFE9A300CE722C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFAEEDF51CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty */;
+			targetProxy = CFAEEE131CAFE9A300CE722C /* PBXContainerItemProxy */;
+		};
+		CFAEEE1F1CAFE9A300CE722C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFAEEDF51CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty */;
+			targetProxy = CFAEEE1E1CAFE9A300CE722C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFAEEE021CAFE9A300CE722C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAEEE031CAFE9A300CE722C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFAEEE0A1CAFE9A300CE722C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAEEE0B1CAFE9A300CE722C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFAEEE241CAFE9A300CE722C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFAEEE251CAFE9A300CE722C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFAEEE271CAFE9A300CE722C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoviePlayerFromInterentByThirdParty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.MoviePlayerFromInterentByThirdParty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFAEEE281CAFE9A300CE722C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoviePlayerFromInterentByThirdParty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.MoviePlayerFromInterentByThirdParty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFAEEE2A1CAFE9A300CE722C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoviePlayerFromInterentByThirdPartyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.MoviePlayerFromInterentByThirdPartyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoviePlayerFromInterentByThirdParty.app/MoviePlayerFromInterentByThirdParty";
+			};
+			name = Debug;
+		};
+		CFAEEE2B1CAFE9A300CE722C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoviePlayerFromInterentByThirdPartyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.MoviePlayerFromInterentByThirdPartyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoviePlayerFromInterentByThirdParty.app/MoviePlayerFromInterentByThirdParty";
+			};
+			name = Release;
+		};
+		CFAEEE2D1CAFE9A300CE722C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoviePlayerFromInterentByThirdPartyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.MoviePlayerFromInterentByThirdPartyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoviePlayerFromInterentByThirdParty;
+			};
+			name = Debug;
+		};
+		CFAEEE2E1CAFE9A300CE722C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoviePlayerFromInterentByThirdPartyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.MoviePlayerFromInterentByThirdPartyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoviePlayerFromInterentByThirdParty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFAEEDF11CAFE9A300CE722C /* Build configuration list for PBXProject "MoviePlayerFromInterentByThirdParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAEEE241CAFE9A300CE722C /* Debug */,
+				CFAEEE251CAFE9A300CE722C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAEEE261CAFE9A300CE722C /* Build configuration list for PBXNativeTarget "MoviePlayerFromInterentByThirdParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAEEE271CAFE9A300CE722C /* Debug */,
+				CFAEEE281CAFE9A300CE722C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFAEEE291CAFE9A300CE722C /* Build configuration list for PBXNativeTarget "MoviePlayerFromInterentByThirdPartyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAEEE2A1CAFE9A300CE722C /* Debug */,
+				CFAEEE2B1CAFE9A300CE722C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFAEEE2C1CAFE9A300CE722C /* Build configuration list for PBXNativeTarget "MoviePlayerFromInterentByThirdPartyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAEEE2D1CAFE9A300CE722C /* Debug */,
+				CFAEEE2E1CAFE9A300CE722C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFAEEE051CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFAEEE061CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty.xcdatamodel */,
+			);
+			currentVersion = CFAEEE061CAFE9A300CE722C /* MoviePlayerFromInterentByThirdParty.xcdatamodel */;
+			path = MoviePlayerFromInterentByThirdParty.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFAEEDEE1CAFE9A300CE722C /* Project object */;
+}
